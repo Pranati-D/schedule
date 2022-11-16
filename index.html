@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h1>Schedule for Pranati-156-Fall, 2022</h1>
+        <link rel="stylesheet" href="css/myStyle.css">
+    </head>
+        <body>
+            <p>
+                <dt>How to Define a Table</dt>
+                <dd>You define a table with the &lt;table&gt; element.</dd>
+            </p>
+            <p>
+                <dt>&lt;tr&gt;</dt>
+                <dd>"Table row" is used to manipulate the content of the rows of the table.</dd>
+            </p>
+            <p>
+                <dt>&lt;th&gt;</dt>
+                <dd>Is used to manipulate the content of a specific cell that is a header.</dd>
+            </p>
+            <p>
+                <dt>&lt;td&gt;</dt>
+                <dd>"Table data" is used to manipulate the contents of each cell of the table that is not the header.</dd>
+            </p>
+            <p>
+                <dt>&lt;thead&gt;</dt>
+                <dd>"Table head" is used to manipulate the contents of the table headers in relation to the columns.</dd>
+            </p>
+            <p>
+                <dt>&lt;tfoot&gt;</dt>
+                <dd>"Table footer" is used to manipulate the contents of the footer in the table.</dd>
+            </p>
+            <p>
+                <dt>&lt;caption&gt;</dt>
+                <dd>Is used as the table title.</dd>
+            </p>
+            <p>
+                <dt>Colspan vs. Rowspan</dt>
+                <dd>Column Span is used to merge the table cells across columns. Rowspan is used to merge the table cells across rows.</dd>
+            </p>
+            <p>
+                <dt>Cell Spacing vs. Padding</dt>
+                <dd>Cell spacing refers to the space between cells.Cell Padding refers to the space inside the cells.</dd>
+            </p>
+            <p>
+               <dt>Table Borders with CSS</dt>
+               <dd>You can define a table border using css with the "border:" tag under the specified region of table{}, td{}, or th{}. To control this border width you have to define the amount of pixels. So after "border:" you can type the number and then "px."</dd>
+            </p>
+            <table>
+                <caption><b>My Schedule</b></caption>
+                <tr>
+                    <th>Time</th>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                    <th>Saturday</th>
+                    <th>Sunday</th>
+                </tr>
+                <tr>
+                    <td>8:00-8:30AM</td>
+                    <td id="pink"></td>
+                    <td rowspan="8">Altman Lab Research:<a href="https://ortho.ucsd.edu/">Click Here</a><p><img src="images/researchpic.jpeg" style="width:150px;height:100px;"></p></td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                    <td rowspan="8">Pathmaker Shift:<a href="https://www.palomarhealth.org/pathmaker-internship-program/internship-overview">Click Here</a><p><img src="images/pathmaker.jpg" style="width:150px;height:100px;"></p></td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                </tr>
+                <tr>
+                    <td>8:30-9:00AM</td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                </tr>
+                <tr>
+                    <td>9:00-9:30AM</td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                </tr>
+                <tr>
+                    <td>9:30-10:00AM</td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                </tr>
+                <tr>
+                    <td>10-10:30AM</td>
+                    <td rowspan="2">Chem 7L Lecture</td>
+                    <td rowspan="2">Chem 7L Lecture</td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                </tr>
+                <tr>
+                    <td>10:30-11:00AM</td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                </tr>
+                <tr>
+                    <td>11:00-11:30AM</td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                </tr>
+                <tr>
+                    <td>11:30-12:00PM</td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                </tr>
+                <tr>
+                    <td>12:00-12:30PM</td>
+                    <td rowspan="2">Cogs 3 Lab</td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                </tr>
+                <tr>
+                    <td>12:30-1:00PM</td>
+                    <td rowspan="3">BIMM 100 Lecture</td>
+                    <td id="pink"></td>
+                    <td rowspan="3">BIMM 100 Lecture</td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                </tr>
+                <tr>
+                    <td>1:00-1:30PM</td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                    <td rowspan="2">Cogs 107A Lab</td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                </tr>
+                <tr>
+                    <td>1:30-2:00PM</td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                </tr>
+                <tr>
+                    <td>2:00-2:30PM</td>
+                    <td rowspan="6">Chem 7L Lab</td>
+                    <td id="pink"></td>
+                    <td rowspan="6">Chem 7L Lab</td>
+                    <td id="pink"></td>
+                    <td rowspan="6">Altman Lab Research:<a href="https://ortho.ucsd.edu/">Click Here</a><p><img src="images/researchpic.jpeg" style="width:150px;height:100px;"></p></td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                </tr>
+                <tr>
+                    <td>2:30-3:00PM</td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                </tr>
+                <tr>
+                    <td>3:00-3:30PM</td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                </tr>
+                <tr>
+                    <td>3:30-4:00PM</td>
+                    <td rowspan="3">Cogs 107A Lecture</td>
+                    <td rowspan="3">Cogs 107A Lecture</td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                </tr>
+                <tr>
+                    <td>4:00-4:30PM</td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                </tr>
+                <tr>
+                    <td>4:30-5:00PM</td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                </tr>
+                <tr>
+                    <td>5:00-5:30PM</td>
+                    <td rowspan="2">BIMM 100 Discussion</td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                </tr>
+                <tr>
+                    <td>5:30-6:00PM</td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                </tr>
+                <tr>
+                    <td>6:00-6:30PM</td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                    <td rowspan="4">Acapella Practice<p><img src="images/trebles.jpg" style="width:150px;height:100px;"></p></td>
+                </tr>
+                <tr>
+                    <td>6:30-7:00PM</td>
+                    <td id="pink"></td>
+                    <td rowspan="3">Cogs 3 Lecture</td>
+                    <td id="pink"></td>
+                    <td rowspan="3">Cogs 3 Lecture</td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                </tr>
+                <tr>
+                    <td>7:00-7:30PM</td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                </tr>
+                <tr>
+                    <td>7:30-8:00PM</td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                </tr>
+                <tr>
+                    <td>8:00-8:30PM</td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                    <td rowspan="4">Acapella Practice<p><img src="images/trebles.jpg" style="width:150px;height:100px;"></p></td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                </tr>
+                <tr>
+                    <td>8:30-9:00PM</td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                </tr>
+                <tr>
+                    <td>9:00-9:30PM</td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                </tr>
+                <tr>
+                    <td>9:30-10:00PM</td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                    <td id="pink"></td>
+                </tr>
+            </table>
+        </body>
+</html> 
